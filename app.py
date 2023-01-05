@@ -33,10 +33,7 @@ PIPELINE = os.environ.get("PIPELINE")
 HF_AUTH_TOKEN = os.getenv("HF_AUTH_TOKEN")
 
 PIPELINES = [
-    "StableDiffusionPipeline",
-    "StableDiffusionImg2ImgPipeline",
-    "StableDiffusionInpaintPipeline",
-    "StableDiffusionInpaintPipelineLegacy",
+    "DiffusionPipeline",
 ]
 
 torch.set_grad_enabled(False)
