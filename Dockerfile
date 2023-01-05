@@ -105,7 +105,7 @@ ENV PRECISION=${PRECISION}
 ADD precision.py .
 
 # ARG PIPELINE="StableDiffusionInpaintPipeline"
-ARG PIPELINE="ALL"
+ARG PIPELINE="DiffusionPipeline"
 ENV PIPELINE=${PIPELINE}
 
 ARG USE_DREAMBOOTH=0
